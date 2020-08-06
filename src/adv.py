@@ -49,3 +49,10 @@ room['treasure'].s_to = room['narrow']
 # Print an error message if the movement isn't allowed.
 #
 # If the user enters "q", quit the game.
+
+class Player:
+    def __init__(self, location):
+        self.location = location
+
+print(Player(room['outside']))
+
